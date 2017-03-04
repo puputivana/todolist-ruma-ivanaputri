@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<script type="text/javascript" src="todolist.js"></script>
+		<title>To-Do List!</title>
+	</head>
+	<body>
+		<div class="row">
+			<div id="left" class="col s4">
+				<p class="extraheight" id="gede">What Do You Wanna do?</p>
+			</div>
+
+			<div class="right col s6">
+				<div class="task-input">
+					<h4>Add A To-Do</h4><hr>
+		     		<form id="task-form">
+		     		<input id="task-name" placeholder="Type A New To-do.." type="text">
+		      		
+		      		<div class="row">
+		      			<input id="task-date" class="col s4" placeholder="Due Date..." class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+		      			<div class="col s6"></div>
+		      		</div>
+
+		      		<div class="row">
+			      		<div class="col s10"></div>
+			      		<input type="button" class="col s2 waves-effect waves-light btn" id="addButton" value="ADD" />
+			      	</div>
+			      </form>
+		      	</div>
+			
+			<div>
+				<ul id="task-list" class="collection">
+				<li class="collection-item ">
+					<input type="checkbox" ><label>Task 1</label></li>
+					<li class="collection-item"><input type="checkbox"><label>Task 2</label></li>
+					<li class="collection-item"><input type="checkbox"><label>Task 3</label></li>
+					<li class="collection-item"><input type="checkbox"><label>Task 4</label></li>
+				</ul>
+			</div>
+				
+			</div>
+		</div>
+		<div class="bg"></div>
+	<!-- Scripts! -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script> 
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/todo.js"></script>	
+	</body>
+</html>
