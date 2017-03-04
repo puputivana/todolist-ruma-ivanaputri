@@ -1,0 +1,52 @@
+body {
+  background-image: url("backg1.jpg");
+	font-family: 'Montserrat', serif;
+  color: #FFF;
+}
+
+div.bg {
+  opacity:    0.65; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  z-index:    -1;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+
+#left {
+
+	float: left;
+	margin-left: 5%;
+	margin-top: 10%;
+
+}
+
+.right {
+
+	float: right;
+	margin-top, margin-bottom: 5%;
+	margin-right: 5%;
+	vertical-align: center;
+}
+
+#gede {
+	font-size: 48pt;
+}
+
+.extraheight {
+  line-height: 1;
+}
+
+#task-list {
+  color: #333;
+  overflow-y: auto;
+  height: 55%
+}
+
+close {
+  color: #333;
+  cursor: hand;
+}
+
