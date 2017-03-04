@@ -8,3 +8,4 @@ Fitur yang berjalan:
 2. Delete Task
 3. Pick a Date
 4. Scrollable tasks list (Jika task yang ada >= 7)
+5. Responsive design
